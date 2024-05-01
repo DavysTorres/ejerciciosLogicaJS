@@ -11,9 +11,66 @@
 
 <body>
 
+    <section class="row mt-5">
+        <form class="col-3 offset-1 d-flex flex-column justify-content-center align-content-center bg-danger me-3 rounded-5" id="problema1">
+            <div class="text-center text-white">
+                <div class="mt-2 fs-5 fw-bold mb-3">
+                    <p>El sistema suma todos los numeros hasta el digitado</p>
+                    <label >Digita un numero</label>
+                </div>
+                <div class="mb-3 d-flex justify-content-center">
+                    <input type="number" class="form-control w-50 " id="inputNumero" placeholder="numero">
+                </div>
+                <div class="mb-1">
+                    <button type="submit" class="btn btn-dark mb-3">sumatoria</button>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-content-center" >
+                <h5 id="resultado1">res</h5>
+            </div>
+        </form>
 
-    <div class="row mt-5">
-        <form class="col-3 offset-1 d-flex flex-column  justify-content-center align-content-center bg-danger me-3 rounded-5">
+        <form class="col-3 d-flex flex-column justify-content-center align-content-center bg-primary me-3 rounded-5" id="problema2">
+            <div class="text-center text-white">
+                <div class="mt-2 fs-5 fw-bold mb-3">
+                    <label >Numero par o impar</label>
+                </div>
+                <div class="mb-3 d-flex justify-content-center">
+                    <input type="number" class="form-control w-50 " id="inputnumP" placeholder="numero">
+                </div>
+                <div class="mb-1">
+                    <button type="submit" class="btn btn-dark mb-3">resultado</button>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-content-center" >
+                <h5 id="resultado2">res</h5>
+            </div>
+        </form>
+
+        <form class="col-3  d-flex flex-column  justify-content-center align-content-center bg-success rounded-5" id="problema3">
+            <div class="text-center text-white">
+                <div class="mt-4 fs-5 fw-bold mb-3">
+                    <label >Premios Pizzeria</label>
+                </div>
+                <div class="mb-3 d-flex justify-content-center">
+                    <input type="number" class="form-control w-50 " id="inputPizzeria" placeholder="edad">
+                </div>
+                <div class="mb-3 d-flex justify-content-center">
+                    <input type="text" class="form-control w-50 " id="inputPizzeriaG" placeholder="genero">
+                </div>
+                <div class="mb-1">
+                    <button type="submit" class="btn btn-dark mb-3">Premio</button>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-content-center text-center fs-1" >
+                <h5 id="resultado3">res</h5>
+            </div>
+        </form>
+
+    </section>
+
+    <section class="row mt-5">
+        <form class="col-3 offset-1 d-flex flex-column justify-content-center align-content-center bg-warning me-3 rounded-5" id="problema1">
             <div class="text-center text-white">
                 <div class="mt-2 fs-5 fw-bold mb-3">
                     <label >Digita un numero</label>
@@ -22,58 +79,56 @@
                     <input type="number" class="form-control w-50 " id="inputNumero" placeholder="numero">
                 </div>
                 <div class="mb-1">
-                    <button type="submit" class="btn btn-primary mb-3">sumatoria</button>
+                    <button type="submit" class="btn btn-dark mb-3">sumatoria</button>
                 </div>
             </div>
-            <div class="d-flex justify-content-center align-content-center" id="resultado1">
-                <h1>res</h1>
+            <div class="d-flex justify-content-center align-content-center" >
+                <h5 id="resultado1">res</h5>
             </div>
         </form>
 
-        <form class="col-3  d-flex flex-column  justify-content-center align-content-center bg-primary me-3 rounded-5"">
+        <form class="col-3 d-flex flex-column justify-content-center align-content-center bg-info me-3 rounded-5" id="problema5">
             <div class="text-center text-white">
                 <div class="mt-2 fs-5 fw-bold mb-3">
-                    <label >Numero par o impar</label>
+                    <label >Tablas de multiplicar</label>
                 </div>
                 <div class="mb-3 d-flex justify-content-center">
-                    <input type="number" class="form-control w-50 " id="inputPassword2" placeholder="numero">
+                    <input type="number" class="form-control w-50 " id="inputMultiplicador" placeholder="Multiplicador">
                 </div>
                 <div class="mb-1">
-                    <button type="submit" class="btn btn-dark mb-3">resultado</button>
+                    <button type="submit" class="btn btn-dark mb-3">multiplicar</button>
                 </div>
             </div>
-            <div class="d-flex justify-content-center align-content-center" id="resultado2">
-                <h1>res</h1>
+            <div class="d-flex justify-content-center align-content-center" >
+                <h5 id="resultado5">res</h5>
             </div>
         </form>
 
-        <form class="col-3  d-flex flex-column  justify-content-center align-content-center bg-success rounded-5"">
+        <form class="col-3  d-flex flex-column  justify-content-center align-content-center bg-dark-subtle rounded-5" id="problema6">
             <div class="text-center text-white">
                 <div class="mt-4 fs-5 fw-bold mb-3">
-                    <label >Numero par o impar</label>
+                    <p>Calculo de valor de la Matricula</p>
+                    <label >Digita tu promedio</label>
                 </div>
                 <div class="mb-3 d-flex justify-content-center">
-                    <input type="number" class="form-control w-50 " id="inputPassword2" placeholder="edad">
-                </div>
-                <div class="mb-3 d-flex justify-content-center">
-                    <input type="text" class="form-control w-50 " id="inputPassword2" placeholder="genero">
+                    <input type="number" step="0.01" min="0" max="5" class="form-control w-50 " id="inputPromedio" placeholder="Promedio">
                 </div>
                 <div class="mb-1">
-                    <button type="submit" class="btn btn-dark mb-3">resultado</button>
+                    <button type="submit" class="btn btn-dark mb-3">calcular DTO</button>
                 </div>
             </div>
-
-            <div class="d-flex justify-content-center align-content-center" id="resultado3">
-                <h1>res</h1>
+            <div class="d-flex justify-content-center align-content-center text-center fs-1" >
+                <h5 id="resultado6">res</h5>
             </div>
         </form>
 
-    </div>
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="ejerciciosLogica.js"></script>
 </body>
 
 </html>
